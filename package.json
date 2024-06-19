@@ -4,7 +4,7 @@
   "description": "Implementation of the fake-progress package for react-hooks",
   "main": "./dist/index.cjs",
   "scripts": {
-    "prepublishOnly": "tiny-ts-package-bundler",
+    "prepublishOnly": "./node_modules/.bin/tiny-ts-package-bundler",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "tinyTsPkgBundler": {
