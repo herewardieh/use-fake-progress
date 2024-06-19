@@ -1,0 +1,17 @@
+{
+  "include": ["src/**/*", "__tests__"],
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "outDir": "dist/",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "ES6",
+    "lib": ["ESNext", "DOM"],
+    "strictNullChecks": true,
+    "preserveConstEnums": true
+  }
+}
