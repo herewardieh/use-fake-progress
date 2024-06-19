@@ -41,6 +41,6 @@ jobs:
       - name: Run script test units
         run: pnpm run test
 
-      - uses: simenandre/publish-with-pnpm@v1
+      - uses: JS-DevTools/npm-publish@v3
         with:
-          npm-auth-token: ${{ secrets.NPM_TOKEN }}
+          token: ${{ secrets.NPM_TOKEN }}
