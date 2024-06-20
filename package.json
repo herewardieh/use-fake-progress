@@ -1,6 +1,6 @@
 {
   "name": "react-use-fake-progress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Implementation of the fake-progress package for react-hooks",
   "main": "./dist/index.cjs",
   "scripts": {
@@ -8,7 +8,10 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage"
   },
   "tinyTsPkgBundler": {
-    "platform": "browser"
+    "platform": "browser",
+    "external": [
+      "react"
+    ]
   },
   "keywords": [
     "react",
@@ -33,19 +36,19 @@
     "jest-environment-jsdom": "^29.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tiny-ts-package-bundler": "^1.1.1",
+    "tiny-ts-package-bundler": "^1.1.2",
     "ts-jest": "^29.1.5",
     "tslib": "^2.6.3",
     "typescript": "^5.4.5"
   },
-  "_id": "react-use-fake-progress@1.0.0",
+  "_id": "react-use-fake-progress@1.0.1",
   "type": "module",
   "module": "./dist/index.mjs",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs",
-      "types": "./dist/type.d.ts"
+      "types": "./dist/index.d.ts"
     },
     "./index.ts": "./index.ts"
   },
