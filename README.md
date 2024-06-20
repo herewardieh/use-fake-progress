@@ -1,4 +1,4 @@
-# use-fake-progress
+# react-use-fake-progress
 
 Inspired by fake-progress, but using fake-progress in React requires retrieving progress values in real-time, I simplified the operation process by directly obtaining the progress value through React Hooks.
 
@@ -7,21 +7,21 @@ Inspired by fake-progress, but using fake-progress in React requires retrieving 
 ## Installation
 
 ```sh
-npm i use-fake-progress --save
+npm i react-use-fake-progress --save
 ```
 
 Recommend you use `pnpm`:
 
 ```sh
-pnpm add use-fake-progress
+pnpm add react-use-fake-progress
 ```
 
 ## Usage
 
-- Request api and get fake progress from use-fake-progress
+- Request api and get fake progress from react-use-fake-progress
 
   ```javascript
-  import { useFakeProgress } from "use-fake-progress";
+  import { useFakeProgress } from "react-use-fake-progress";
   import { axios } from "axios";
 
   const App = () => {

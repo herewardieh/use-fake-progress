@@ -1,6 +1,6 @@
 {
-  "name": "use-fake-progress",
-  "version": "1.0.5",
+  "name": "react-use-fake-progress",
+  "version": "1.0.0",
   "description": "Implementation of the fake-progress package for react-hooks",
   "main": "./dist/index.cjs",
   "scripts": {
@@ -38,7 +38,7 @@
     "tslib": "^2.6.3",
     "typescript": "^5.4.5"
   },
-  "_id": "use-fake-progress@1.0.5",
+  "_id": "react-use-fake-progress@1.0.0",
   "type": "module",
   "module": "./dist/index.mjs",
   "exports": {
